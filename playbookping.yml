@@ -1,0 +1,5 @@
+- name: Test servers
+  hosts: db_and_web_servers
+  tasks:
+    - name: Ping the servers
+      ping:
