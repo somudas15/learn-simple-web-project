@@ -5,5 +5,5 @@
       - python
       - python-setuptools
       - python-pip
-      - pymysql
+      - python3-PyMySQL
      state: present
