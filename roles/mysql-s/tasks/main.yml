@@ -1,8 +1,6 @@
 ---
   - name: Install MySQL database
-    yum:
-      name: "{{ item }}"
-      state:  installed
+    yum: name= "{{ item }}" state=installed
     with_items:
      - { name: mysql-server }
      - { name: mysql-client }
