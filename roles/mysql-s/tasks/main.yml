@@ -2,6 +2,7 @@
   - name: Install MySQL database
     yum: 
       name:
+       - mysql
        - mysql-server
       state: present
   
