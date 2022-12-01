@@ -1,5 +1,6 @@
 - name: Install simple web application DB
   hosts: db_server
+  become: true
   roles:
     - python-package
     - mysql-s
