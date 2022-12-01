@@ -4,8 +4,5 @@
      name:
       - python
       - python-setuptools
-      - python-dev
-      - build-essential
       - python-pip
-      - python-mysqldb
      state: present
