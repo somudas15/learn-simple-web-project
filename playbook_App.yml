@@ -1,0 +1,5 @@
+- name: Install simple web application Web
+  hosts: web_server
+  roles:
+    - python-package
+    - flask-s

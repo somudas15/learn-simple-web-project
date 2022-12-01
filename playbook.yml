@@ -1,5 +1,0 @@
-- name: Install simple web application
-  hosts: taget*
-  roles:
-    - python-package
-    - mysql-flask
