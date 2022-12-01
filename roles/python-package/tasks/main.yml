@@ -1,10 +1,11 @@
 ---
  - name: Install python dependencies
-   yum: name= "{{ item }}" state=installed
-   with_items:
-    - { name: python }
-    - { name: python-setuptools }
-    - { name: python-dev }
-    - { name: build-essential }
-    - { name: python-pip }
-    - { name: python-mysqldb }
+   yum: 
+     name:
+      - python
+      - python-setuptools
+      - python-dev
+      - build-essential
+      - python-pip
+      - python-mysqldb
+     state: present

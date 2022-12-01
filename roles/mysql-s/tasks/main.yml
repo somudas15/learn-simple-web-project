@@ -3,5 +3,4 @@
     yum: 
       name:
        - mysql-server
-       - mysql-client
       state: present
